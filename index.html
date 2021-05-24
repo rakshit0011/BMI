@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: lightslategray;
+        }
+        h1{
+            text-align: center;
+            color: purple;
+            font-family: cursive;
+        }
+        form{
+            margin-top: 40vh;
+        }
+        input{
+            display: block;
+            margin: auto;
+            padding: 5px;
+            background-color: aqua;
+            color: blue;
+            font-family: cursive;
+            margin-top: 10px;
+        }
+        input:hover{
+            background-color: lightgreen;
+        }
+        #inp{
+            background-color: lime;
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form action="" method="post">
+        <input type="text" name="num1" placeholder="Enter your weight(in kg)">
+        <input type="text" name="num2" placeholder="Enter your height(in meters)">
+        <input type="submit" id="inp" value="Calculate!">
+    </form>
+</body>
+</html>
